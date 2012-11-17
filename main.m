@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "MGSplitViewAppDelegate.h"
+#import "MGSplitViewAppDelegate_iPhone.h"
 
 /* original
 int main(int argc, char *argv[]) {
@@ -25,7 +26,7 @@ int main(int argc, char *argv[])
         if (IS_IPAD()) {
                 return UIApplicationMain(argc, argv, nil, NSStringFromClass([MGSplitViewAppDelegate class]));
         } else {
-                //return UIApplicationMain(argc, argv, nil, NSStringFromClass([UniversalExampleAppDelegate_Phone class]));
+               return UIApplicationMain(argc, argv, nil, NSStringFromClass([MGSplitViewAppDelegate_iPhone class]));
         }
     }
 }
