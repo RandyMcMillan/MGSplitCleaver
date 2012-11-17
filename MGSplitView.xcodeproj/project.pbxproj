@@ -238,7 +238,7 @@
 				GCC_PREFIX_HEADER = MGSplitView_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "MGSplitView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = MGSplitView;
 			};
 			name = Debug;
@@ -252,7 +252,7 @@
 				GCC_PREFIX_HEADER = MGSplitView_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "MGSplitView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = MGSplitView;
 				VALIDATE_PRODUCT = YES;
 			};
