@@ -11,7 +11,7 @@
 @class DetailViewController;
 
 @interface RootViewController_iPhone : UITableViewController {
-    DetailViewController *detailViewController;
+	DetailViewController *detailViewController;
 }
 
 @property (nonatomic, retain) IBOutlet DetailViewController *detailViewController;
