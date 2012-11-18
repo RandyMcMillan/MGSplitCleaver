@@ -19,20 +19,20 @@
         // Add the split view controller's view to the window and display.
     
 #if __IPHONE_OS_VERSION_MAX_ALLOWED > 6000
-        //		[window setRootViewController:splitViewController];
+        		[window setRootViewController:rootViewController];
 #else
         //		[window addSubview:splitViewController.view];
 #endif
     
         //    [window addSubview:splitViewController.view];
    
+   	UINavigationController		*navController	= [[UINavigationController alloc] initWithRootViewController:rootViewController];
     
-    
-    self.window.rootViewController = rootViewController;
+    self.window.rootViewController = navController;
     
     [window makeKeyAndVisible];
     
-    [rootViewController performSelector:@selector(selectFirstRow) withObject:nil afterDelay:0];
+        //[rootViewController performSelector:@selector(selectFirstRow) withObject:nil afterDelay:0];
         //[detailViewController performSelector:@selector(configureView) withObject:nil afterDelay:0];
     
     if (NO) {												// whether to allow dragging the divider to move the split.
