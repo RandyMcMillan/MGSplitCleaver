@@ -9,22 +9,22 @@
 #import <UIKit/UIKit.h>
 #import "MGSplitViewController.h"
 
-@interface DetailViewController : UIViewController <UIPopoverControllerDelegate, MGSplitViewControllerDelegate> {
-	IBOutlet MGSplitViewController *splitController;
-	IBOutlet UIBarButtonItem *toggleItem;
-	IBOutlet UIBarButtonItem *verticalItem;
-	IBOutlet UIBarButtonItem *dividerStyleItem;
-	IBOutlet UIBarButtonItem *masterBeforeDetailItem;
-    UIPopoverController *popoverController;
-    UIToolbar *toolbar;
-    
-    id detailItem;
-    UILabel *detailDescriptionLabel;
+@interface DetailViewController : UIViewController <UIPopoverControllerDelegate, MGSplitViewControllerDelegate>{
+	IBOutlet MGSplitViewController	*splitController;
+	IBOutlet UIBarButtonItem		*toggleItem;
+	IBOutlet UIBarButtonItem		*verticalItem;
+	IBOutlet UIBarButtonItem		*dividerStyleItem;
+	IBOutlet UIBarButtonItem		*masterBeforeDetailItem;
+	UIPopoverController				*popoverController;
+	UIToolbar						*toolbar;
+
+	id		detailItem;
+	UILabel *detailDescriptionLabel;
 }
 
-@property (nonatomic, retain) IBOutlet UIToolbar *toolbar;
-@property (nonatomic, retain) id detailItem;
-@property (nonatomic, retain) IBOutlet UILabel *detailDescriptionLabel;
+@property (nonatomic, retain) IBOutlet UIToolbar	*toolbar;
+@property (nonatomic, retain) id					detailItem;
+@property (nonatomic, retain) IBOutlet UILabel		*detailDescriptionLabel;
 
 - (IBAction)toggleMasterView:(id)sender;
 - (IBAction)toggleVertical:(id)sender;
