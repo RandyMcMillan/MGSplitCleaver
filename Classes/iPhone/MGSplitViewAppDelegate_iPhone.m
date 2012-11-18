@@ -19,13 +19,14 @@
         // Add the split view controller's view to the window and display.
     
 #if __IPHONE_OS_VERSION_MAX_ALLOWED > 6000
-        		[window setRootViewController:rootViewController];
+        //      		[window setRootViewController:rootViewController];
 #else
         //		[window addSubview:splitViewController.view];
 #endif
     
         //    [window addSubview:splitViewController.view];
-   
+  	RootViewController_iPhone	*rootVC			= [[RootViewController_iPhone alloc] init];
+    rootViewController = rootVC;
    	UINavigationController		*navController	= [[UINavigationController alloc] initWithRootViewController:rootViewController];
     
     self.window.rootViewController = navController;
