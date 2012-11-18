@@ -1,6 +1,8 @@
 MGSplitViewController
 =====================
 
+#####Basic Universal App Support added to this - @RandyMcMillan
+
 MGSplitViewController is a replacement for UISplitViewController, with various useful enhancements.
 
 
