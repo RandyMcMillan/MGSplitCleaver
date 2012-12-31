@@ -11,22 +11,21 @@
 #import "MGSplitViewAppDelegate_iPhone.h"
 
 /* original
-int main(int argc, char *argv[]) {
-    
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-    int retVal = UIApplicationMain(argc, argv, nil, nil);
-    [pool release];
-    return retVal;
-}
-*/
-
+ *   int main(int argc, char *argv[]) {
+ *
+ *    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+ *    int retVal = UIApplicationMain(argc, argv, nil, nil);
+ *    [pool release];
+ *    return retVal;
+ *   }
+ */
 int main(int argc, char *argv[])
 {
-    @autoreleasepool {
-        if (IS_IPAD()) {
-                return UIApplicationMain(argc, argv, nil, NSStringFromClass([MGSplitViewAppDelegate class]));
-        } else {
-               return UIApplicationMain(argc, argv, nil, NSStringFromClass([MGSplitViewAppDelegate_iPhone class]));
-        }
-    }
+	@autoreleasepool {
+		if (IS_IPAD()) {
+			return UIApplicationMain(argc, argv, nil, NSStringFromClass([MGSplitViewAppDelegate class]));
+		} else {
+			return UIApplicationMain(argc, argv, nil, NSStringFromClass([MGSplitViewAppDelegate_iPhone class]));
+		}
+	}
 }
