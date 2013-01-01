@@ -13,6 +13,9 @@
 @end
 
 @implementation DetailViewController_iPhone
+@synthesize detailItem;
+@synthesize toolbar;
+@synthesize detailDescriptionLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

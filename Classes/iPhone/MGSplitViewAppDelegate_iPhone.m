@@ -8,10 +8,10 @@
 
 #import "MGSplitViewAppDelegate_iPhone.h"
 #import "RootViewController_iPhone.h"
-// #import "DetailViewController.h"
+#import "DetailViewController_iPhone.h"
 
 @implementation MGSplitViewAppDelegate_iPhone
-@synthesize window, rootViewController;	// , detailViewController;
+@synthesize window, rootViewController, detailViewController_iPhone;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
