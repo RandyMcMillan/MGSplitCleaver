@@ -8,13 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@class DetailViewController;
+@class DetailViewController_iPhone;
 
 @interface RootViewController_iPhone : UITableViewController {
-	DetailViewController *detailViewController;
+	DetailViewController_iPhone *detailViewController_iPhone;
 }
 
-@property (nonatomic, retain) IBOutlet DetailViewController *detailViewController;
+@property (nonatomic, retain) IBOutlet DetailViewController_iPhone *detailViewController_iPhone;
 
 - (void)selectFirstRow;
 

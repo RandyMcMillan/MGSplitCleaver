@@ -7,11 +7,11 @@
 //
 
 #import "RootViewController_iPhone.h"
-#import "DetailViewController.h"
+#import "DetailViewController_iPhone.h"
 
 @implementation RootViewController_iPhone
 
-@synthesize detailViewController;
+@synthesize detailViewController_iPhone;
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -78,6 +78,11 @@
     
     [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
 
+    DetailViewController_iPhone *detailViewController = [[DetailViewController_iPhone alloc]init];
+    if (IS_IPAD()) {} else {
+        [self.navigationController pushViewController:detailViewController animated:YES];
+    }
+
 	// When a row is selected, set the detail view controller's detail item to the item associated with the selected row.
 	detailViewController.detailItem = [NSString stringWithFormat:@"Row %d", indexPath.row];
 }
@@ -87,7 +92,7 @@
 
 - (void)dealloc
 {
-	[detailViewController release];
+	[detailViewController_iPhone release];
 	[super dealloc];
 }
 
