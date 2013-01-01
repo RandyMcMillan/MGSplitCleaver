@@ -10,16 +10,16 @@
 #import <UIKit/UIKit.h>
 
 @class RootViewController_iPhone;
-// @class DetailViewController;
+@class DetailViewController_iPhone;
 
 @interface MGSplitViewAppDelegate_iPhone : NSObject <UIApplicationDelegate>{
 	UIWindow					*window;
 	RootViewController_iPhone	*rootViewController;
-	// DetailViewController *detailViewController;
+	DetailViewController_iPhone *detailViewController_iPhone;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow						*window;
 @property (nonatomic, retain) IBOutlet RootViewController_iPhone	*rootViewController;
-// @property (nonatomic, retain) IBOutlet DetailViewController *detailViewController;
+@property (nonatomic, retain) IBOutlet DetailViewController_iPhone *detailViewController_iPhone;
 
 @end
