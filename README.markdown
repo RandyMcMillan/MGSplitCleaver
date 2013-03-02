@@ -1,7 +1,24 @@
+Rethinking the Hybrid App Paradigm
+===
+
+###Cordova iOS Cleaver Implementation in a flexible splitview
+ 
+
+
+![image](https://raw.github.com/RandyMcMillan/MGSplitCleaver/master/ScreenShot1.png)
+![image](https://raw.github.com/RandyMcMillan/MGSplitCleaver/master/ScreenShot2.png)
+![image](https://raw.github.com/RandyMcMillan/MGSplitCleaver/master/ScreenShot3.png)
+![image](https://raw.github.com/RandyMcMillan/MGSplitCleaver/master/ScreenShot4.png)
+![image](https://raw.github.com/RandyMcMillan/MGSplitCleaver/master/ScreenShot5.png)
+
+
+
+
+Original work
+====
 MGSplitViewController
 =====================
 
-####Universal-iOS branch supports iPhone/iPad - @RandyMcMillan
 
 
 MGSplitViewController is a replacement for UISplitViewController, with various useful enhancements.
