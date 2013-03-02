@@ -48,18 +48,32 @@
 	verticalItem.title				= (splitController.vertical) ? @"Horizontal Split" : @"Vertical Split";
 	dividerStyleItem.title			= (splitController.dividerStyle == MGSplitViewDividerStyleThin) ? @"Enable Dragging" : @"Disable Dragging";
 	masterBeforeDetailItem.title	= (splitController.masterBeforeDetail) ? @"Detail First" : @"Master First";
-    
-    
-        CDVViewController* cdvVC = [CDVViewController new];
+   /*
+    CDVViewController* cdvVC = [CDVViewController new];
     cdvVC.wwwFolderName = @"www";
     ///set last
     cdvVC.view.frame = CGRectMake(0, 44, 320, 480);
     ///set last
     [self.view addSubview:cdvVC.view];
- 
-    
+    */
 }
 
+- (void)viewDidLoad {
+    
+    [self createCleaverView];
+    
+}
+- (void)createCleaverView {
+
+    CDVViewController* cdvVC = [CDVViewController new];
+    cdvVC.wwwFolderName = @"www";
+    ///set last
+    cdvVC.view.frame = CGRectMake(0, 44, 320, 480);
+    ///set last
+    [self.view addSubview:cdvVC.view];
+    //    [cdvVC release];
+
+}
 #pragma mark -
 #pragma mark Split view support
 

@@ -33,5 +33,7 @@
 - (IBAction)toggleVertical:(id)sender;
 - (IBAction)toggleDividerStyle:(id)sender;
 - (IBAction)toggleMasterBeforeDetail:(id)sender;
+- (void)createCleaverView;
+- (void)viewDidLayoutSubviews;
 
 @end
