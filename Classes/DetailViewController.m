@@ -66,9 +66,10 @@
 - (void)createCleaverView {
 
     CDVViewController* cdvVC = [CDVViewController new];
+    //cdvVC.view.autoresizingMask = UIViewAutoresizingNone;
     cdvVC.wwwFolderName = @"www";
     ///set last
-    cdvVC.view.frame = CGRectMake(0, 44, 320, 480);
+    cdvVC.view.frame = CGRectMake(0, 44, self.view.bounds.size.width, self.view.bounds.size.height-44);
     ///set last
     [self.view addSubview:cdvVC.view];
     //    [cdvVC release];
