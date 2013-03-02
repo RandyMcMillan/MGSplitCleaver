@@ -9,12 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @class DetailViewController;
+//@class  CDVViewController;
 
 @interface RootViewController : UITableViewController {
 	DetailViewController *detailViewController;
+    //CDVViewController *cdvVC;
 }
 
 @property (nonatomic, retain) IBOutlet DetailViewController *detailViewController;
+//@property (nonatomic, retain) IBOutlet CDVViewController *cdvVC;
 
 - (void)selectFirstRow;
 

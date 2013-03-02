@@ -8,10 +8,12 @@
 
 #import "RootViewController.h"
 #import "DetailViewController.h"
+//#import <Cordova/CDVViewController.h>
 
 @implementation RootViewController
 
 @synthesize detailViewController;
+//@synthesize cdvVC;
 
 #pragma mark -
 #pragma mark View lifecycle

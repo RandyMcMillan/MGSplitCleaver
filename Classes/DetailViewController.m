@@ -8,6 +8,7 @@
 
 #import "DetailViewController.h"
 #import "RootViewController.h"
+#import <Cordova/CDVViewController.h>
 
 @interface DetailViewController ()
 
@@ -19,7 +20,7 @@
 @implementation DetailViewController
 
 @synthesize toolbar, popoverController, detailItem, detailDescriptionLabel;
-
+//@synthesize cdvVC;
 #pragma mark -
 #pragma mark Managing the detail item
 
@@ -47,6 +48,16 @@
 	verticalItem.title				= (splitController.vertical) ? @"Horizontal Split" : @"Vertical Split";
 	dividerStyleItem.title			= (splitController.dividerStyle == MGSplitViewDividerStyleThin) ? @"Enable Dragging" : @"Disable Dragging";
 	masterBeforeDetailItem.title	= (splitController.masterBeforeDetail) ? @"Detail First" : @"Master First";
+    
+    
+        CDVViewController* cdvVC = [CDVViewController new];
+    cdvVC.wwwFolderName = @"www";
+    ///set last
+    cdvVC.view.frame = CGRectMake(0, 44, 320, 480);
+    ///set last
+    [self.view addSubview:cdvVC.view];
+ 
+    
 }
 
 #pragma mark -
