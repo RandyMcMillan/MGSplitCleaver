@@ -37,5 +37,5 @@
 - (IBAction)toggleMasterBeforeDetail:(id)sender;
 - (void)createCleaverView;
 - (void)viewDidLayoutSubviews;
-
+- (void)webViewShowAlert:(NSString *)aString;
 @end

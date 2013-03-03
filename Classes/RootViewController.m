@@ -81,8 +81,9 @@
 
 	// When a row is selected, set the detail view controller's detail item to the item associated with the selected row.
 	detailViewController.detailItem = [NSString stringWithFormat:@"Row %d", indexPath.row];
-    NSString *jsString = @"document.getElementById('body').innerHTML='My First JavaScript Function';";
-    [detailViewController.webView stringByEvaluatingJavaScriptFromString:jsString];
+    //NSString *jsString = @"navigator.notification.alert('MESSAGE CDVPluginDemo_JS.m LINE:37',alertDismissed,'Event Create & Saved','OK');";
+NSString *jsString = [NSString stringWithFormat:@"navigator.notification.alert('indexPath.row %d selected!',alertDismissed,'Event triggered from native','OK');",indexPath.row];
+    [detailViewController webViewShowAlert:jsString];
 }
 
 #pragma mark -

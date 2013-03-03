@@ -68,7 +68,7 @@
     CDVViewController* cleaver = [CDVViewController new];
     cleaver.wwwFolderName = @"www";
     self.cdvVC = cleaver;
-    self.webView = cleaver.webView;
+    //self.webView = cleaver.webView;
     [cleaver release];
     ///set last
     cleaver.view.frame = CGRectMake(0,
@@ -82,6 +82,14 @@
     [self.view bringSubviewToFront:self.detailDescriptionLabel];
 
 }
+
+- (void)webViewShowAlert:(NSString *)aString{
+
+    //NSLog(@"%@",aString);
+    [self.cdvVC.webView stringByEvaluatingJavaScriptFromString:aString];
+
+}
+
 #pragma mark -
 #pragma mark Split view support
 
