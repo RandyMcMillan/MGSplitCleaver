@@ -17,6 +17,7 @@
 @synthesize detailItem;
 @synthesize toolbar;
 @synthesize detailDescriptionLabel;
+@synthesize cdvVC;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

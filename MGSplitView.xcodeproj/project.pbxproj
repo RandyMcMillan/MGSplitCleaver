@@ -36,6 +36,18 @@
 		4818E2F116E33668002F5163 /* CDVPluginDemo.md in Resources */ = {isa = PBXBuildFile; fileRef = 4818E2EB16E33668002F5163 /* CDVPluginDemo.md */; };
 		4818E2F216E33668002F5163 /* CDVPluginDemo_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 4818E2ED16E33668002F5163 /* CDVPluginDemo_JS.m */; };
 		4818E2F316E33668002F5163 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 4818E2EE16E33668002F5163 /* index.html */; };
+		4818E2F616E34D56002F5163 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4818E2F516E34D55002F5163 /* Default-568h@2x.png */; };
+		4818E2F816E34D5A002F5163 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4818E2F716E34D5A002F5163 /* Default.png */; };
+		4818E2FA16E34D5C002F5163 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4818E2F916E34D5C002F5163 /* Default@2x.png */; };
+		4818E2FC16E34D64002F5163 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4818E2FB16E34D64002F5163 /* Default-Portrait@2x~ipad.png */; };
+		4818E2FE16E34D67002F5163 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4818E2FD16E34D67002F5163 /* Default-Landscape~ipad.png */; };
+		4818E30016E34D6A002F5163 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4818E2FF16E34D6A002F5163 /* Default-Landscape@2x~ipad.png */; };
+		4818E30216E34D6C002F5163 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4818E30116E34D6C002F5163 /* Default-Portrait~ipad.png */; };
+		4818E30416E34D82002F5163 /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4818E30316E34D82002F5163 /* Capture.bundle */; };
+		4818E30616E34D99002F5163 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4818E30516E34D99002F5163 /* icon.png */; };
+		4818E30816E34D9C002F5163 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4818E30716E34D9B002F5163 /* icon@2x.png */; };
+		4818E30A16E34D9F002F5163 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 4818E30916E34D9F002F5163 /* icon-72.png */; };
+		4818E30C16E34DA1002F5163 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4818E30B16E34DA1002F5163 /* icon-72@2x.png */; };
 		486AFF651658575C00FBFAD6 /* MGSplitViewAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 486AFF641658575C00FBFAD6 /* MGSplitViewAppDelegate_iPhone.m */; };
 		486AFF691658594900FBFAD6 /* RootViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 486AFF671658594900FBFAD6 /* RootViewController_iPhone.m */; };
 		486AFF6A1658594900FBFAD6 /* RootViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 486AFF681658594900FBFAD6 /* RootViewController_iPhone.xib */; };
@@ -110,6 +122,18 @@
 		4818E2EC16E33668002F5163 /* CDVPluginDemo_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVPluginDemo_JS.h; path = CDVPluginDemo/CDVPluginDemo_JS.h; sourceTree = "<group>"; };
 		4818E2ED16E33668002F5163 /* CDVPluginDemo_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVPluginDemo_JS.m; path = CDVPluginDemo/CDVPluginDemo_JS.m; sourceTree = "<group>"; };
 		4818E2EE16E33668002F5163 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = CDVPluginDemo/index.html; sourceTree = "<group>"; };
+		4818E2F516E34D55002F5163 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4818E2F716E34D5A002F5163 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4818E2F916E34D5C002F5163 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4818E2FB16E34D64002F5163 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		4818E2FD16E34D67002F5163 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		4818E2FF16E34D6A002F5163 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		4818E30116E34D6C002F5163 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		4818E30316E34D82002F5163 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Capture.bundle; sourceTree = "<group>"; };
+		4818E30516E34D99002F5163 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		4818E30716E34D9B002F5163 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		4818E30916E34D9F002F5163 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		4818E30B16E34DA1002F5163 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
 		486AFF631658575C00FBFAD6 /* MGSplitViewAppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSplitViewAppDelegate_iPhone.h; path = Classes/iPhone/MGSplitViewAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		486AFF641658575C00FBFAD6 /* MGSplitViewAppDelegate_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSplitViewAppDelegate_iPhone.m; path = Classes/iPhone/MGSplitViewAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		486AFF661658594900FBFAD6 /* RootViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController_iPhone.h; path = iPhone/RootViewController_iPhone.h; sourceTree = "<group>"; };
@@ -220,6 +244,18 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4818E30B16E34DA1002F5163 /* icon-72@2x.png */,
+				4818E30916E34D9F002F5163 /* icon-72.png */,
+				4818E30716E34D9B002F5163 /* icon@2x.png */,
+				4818E30516E34D99002F5163 /* icon.png */,
+				4818E30116E34D6C002F5163 /* Default-Portrait~ipad.png */,
+				4818E2FF16E34D6A002F5163 /* Default-Landscape@2x~ipad.png */,
+				4818E2FD16E34D67002F5163 /* Default-Landscape~ipad.png */,
+				4818E2FB16E34D64002F5163 /* Default-Portrait@2x~ipad.png */,
+				4818E2F916E34D5C002F5163 /* Default@2x.png */,
+				4818E2F716E34D5A002F5163 /* Default.png */,
+				4818E2F516E34D55002F5163 /* Default-568h@2x.png */,
+				4818E30316E34D82002F5163 /* Capture.bundle */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				2804203B108E9BAB000629CD /* DetailView.xib */,
 				8D1107310486CEB800E47090 /* MGSplitView-Info.plist */,
@@ -448,6 +484,18 @@
 				48D467ED16E2A710005CD655 /* ScreenShot4.png in Resources */,
 				4818E2F116E33668002F5163 /* CDVPluginDemo.md in Resources */,
 				4818E2F316E33668002F5163 /* index.html in Resources */,
+				4818E2F616E34D56002F5163 /* Default-568h@2x.png in Resources */,
+				4818E2F816E34D5A002F5163 /* Default.png in Resources */,
+				4818E2FA16E34D5C002F5163 /* Default@2x.png in Resources */,
+				4818E2FC16E34D64002F5163 /* Default-Portrait@2x~ipad.png in Resources */,
+				4818E2FE16E34D67002F5163 /* Default-Landscape~ipad.png in Resources */,
+				4818E30016E34D6A002F5163 /* Default-Landscape@2x~ipad.png in Resources */,
+				4818E30216E34D6C002F5163 /* Default-Portrait~ipad.png in Resources */,
+				4818E30416E34D82002F5163 /* Capture.bundle in Resources */,
+				4818E30616E34D99002F5163 /* icon.png in Resources */,
+				4818E30816E34D9C002F5163 /* icon@2x.png in Resources */,
+				4818E30A16E34D9F002F5163 /* icon-72.png in Resources */,
+				4818E30C16E34DA1002F5163 /* icon-72@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
