@@ -33,8 +33,17 @@
 {
 	[super viewDidLoad];
 	// Do any additional setup after loading the view from its nib.
-    [self createCleaverView];
+    //[self createCleaverView];
  
+}
+///This is buggy as heck right now
+/// TODO write orientation support
+- (void)viewWillAppear:(BOOL)animated {
+
+    if (![self.view.subviews containsObject:self.cdvVC.view]) {
+    [self createCleaverView];
+    }
+
 }
 
 - (void)createCleaverView {
