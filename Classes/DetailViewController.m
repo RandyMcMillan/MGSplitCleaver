@@ -65,14 +65,21 @@
 }
 - (void)createCleaverView {
 
-    CDVViewController* cdvVC = [CDVViewController new];
-    //cdvVC.view.autoresizingMask = UIViewAutoresizingNone;
-    cdvVC.wwwFolderName = @"www";
+    CDVViewController* cleaver = [CDVViewController new];
+    cleaver.wwwFolderName = @"www";
+    self.cdvVC = cleaver;
     ///set last
-    cdvVC.view.frame = CGRectMake(0, 44, self.view.bounds.size.width, self.view.bounds.size.height-44);
+    cleaver.view.frame = CGRectMake(0,
+                                    44,
+                                    self.view.bounds.size.width,
+                                    self.view.bounds.size.height-44
+                                    );
     ///set last
-    [self.view addSubview:cdvVC.view];
-    //    [cdvVC release];
+
+    [self.view addSubview:self.cdvVC.view];
+    [self.view bringSubviewToFront:self.detailDescriptionLabel];
+    [cleaver release];
+    
 
 }
 #pragma mark -

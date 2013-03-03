@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "MGSplitViewController.h"
-//@class  CDVViewController;
+@class  CDVViewController;
 
 @interface DetailViewController : UIViewController <UIPopoverControllerDelegate, MGSplitViewControllerDelegate>{
 	IBOutlet MGSplitViewController	*splitController;
@@ -21,13 +21,13 @@
 
 	id		detailItem;
 	UILabel *detailDescriptionLabel;
-    //IBOutlet CDVViewController *cdvVC;
+    IBOutlet CDVViewController *cdvVC;
 }
 
 @property (nonatomic, retain) IBOutlet UIToolbar	*toolbar;
 @property (nonatomic, retain) id					detailItem;
 @property (nonatomic, retain) IBOutlet UILabel		*detailDescriptionLabel;
-//@property (nonatomic, retain) IBOutlet CDVViewController		*cdvVC;
+@property (nonatomic, retain) IBOutlet CDVViewController		*cdvVC;
 
 - (IBAction)toggleMasterView:(id)sender;
 - (IBAction)toggleVertical:(id)sender;
