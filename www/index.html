@@ -31,20 +31,16 @@
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
-                <p>Don't know how to get started? Check out our <em><a target="_blank" href="http://docs.phonegap.com/en/edge/guide_getting-started_ios_index.md.html#Getting%20Started%20with%20iOS">Getting Started Guide</a></em>
-                <button onclick="cordova.exec('___FILEBASENAME___.showWebPage', 'http://google.com');">Click to open ChildBrowser!</button>
+                <button onclick="cordova.exec('___FILEBASENAME___.showWebPage', 'http://github.com/RandyMcMillan/MGSplitCleaver');">MGSplitCleaver on GitHub.com!</button>
                 <div class="report" id="report">CDVPluginDemo</div>
-            <button onclick="init('success');">init!</button><br><div id="init" class="button"></div>
-            <button onclick="buttonOne('literalString');">nativeFunctionWithAlert! (prototyped return)</button><br><div class="button"></div>
-            <button onclick="buttonTwo('literalString');">nativeFunction! (prototyped return)</button><br><div class="button"></div>
-            
-            <button onclick="buttonThree('literalString');">nativeFunctionWithAlert!</button><br><div class="button"></div>
-            <button onclick="buttonFour('literalString');">nativeFunction!</button><br><div class="button"></div>
-            
-            <button onclick="helpButton();">Help</button><br><div class="button"></div>
-
-            </div>
-        </div>
+    <button onclick="init('success');">init!</button><br><div id="init" class="button"></div>
+    <button onclick="buttonOne('literalString');">nativeFunctionWithAlert! (prototyped return)</button><br><div class="button"></div>
+    <button onclick="buttonTwo('literalString');">nativeFunction! (prototyped return)</button><br><div class="button"></div>
+    <button onclick="buttonThree('literalString');">nativeFunctionWithAlert!</button><br><div class="button"></div>
+    <button onclick="buttonFour('literalString');">nativeFunction!</button><br><div class="button"></div>
+    <button onclick="helpButton();">Help</button><br><div class="button"></div>
+    </div>
+    </div>
         <script type="text/javascript">
             
             function init (object){
@@ -88,7 +84,7 @@
             
             function helpButton(){
                 console.log('take a break!');
-                window.open('http://www.youtube.com/watch?v=wugY6HNLOCo&autoplay=1', '_blank', 'location=yes');
+                window.open('http://docs.phonegap.com/en/2.5.0/guide_cordova-webview_ios.md.html#Embedding%20Cordova%20WebView%20on%20iOS', '_blank', 'location=yes');
             }
             
             
