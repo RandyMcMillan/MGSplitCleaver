@@ -85,6 +85,11 @@
 
 	// When a row is selected, set the detail view controller's detail item to the item associated with the selected row.
 	detailViewController_iPhone.detailDescriptionLabel.text = [NSString stringWithFormat:@"Row %d", indexPath.row];
+    
+    NSString *jsString = [NSString stringWithFormat:@"navigator.notification.alert('indexPath.row %d selected!',alertDismissed,'Event triggered from native','OK');",indexPath.row];
+    [detailViewController_iPhone webViewShowAlert:jsString];
+    
+    
 }
 
 #pragma mark -
