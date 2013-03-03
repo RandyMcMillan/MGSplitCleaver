@@ -68,6 +68,8 @@
     CDVViewController* cleaver = [CDVViewController new];
     cleaver.wwwFolderName = @"www";
     self.cdvVC = cleaver;
+    self.webView = cleaver.webView;
+    [cleaver release];
     ///set last
     cleaver.view.frame = CGRectMake(0,
                                     44,
@@ -78,8 +80,6 @@
 
     [self.view addSubview:self.cdvVC.view];
     [self.view bringSubviewToFront:self.detailDescriptionLabel];
-    [cleaver release];
-    
 
 }
 #pragma mark -
