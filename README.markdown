@@ -6,6 +6,7 @@ Rethinking the Hybrid App Paradigm
 
 
 ![image](https://raw.github.com/RandyMcMillan/MGSplitCleaver/master/ScreenShot1.png)
+![image](https://raw.github.com/RandyMcMillan/MGSplitCleaver/master/ScreenShot6.png)
 ![image](https://raw.github.com/RandyMcMillan/MGSplitCleaver/master/ScreenShot2.png)
 ![image](https://raw.github.com/RandyMcMillan/MGSplitCleaver/master/ScreenShot3.png)
 ![image](https://raw.github.com/RandyMcMillan/MGSplitCleaver/master/ScreenShot4.png)
