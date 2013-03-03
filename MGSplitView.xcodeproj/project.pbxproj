@@ -31,6 +31,11 @@
 		4810B05216E29BF3008ED1BC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4810B05116E29BF3008ED1BC /* MobileCoreServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4810B05416E29BFD008ED1BC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4810B05316E29BFD008ED1BC /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4810B05916E29DE2008ED1BC /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4810B05816E29DE2008ED1BC /* AssetsLibrary.framework */; };
+		4818E2EF16E33668002F5163 /* CDVPluginDemo.js in Sources */ = {isa = PBXBuildFile; fileRef = 4818E2E916E33668002F5163 /* CDVPluginDemo.js */; };
+		4818E2F016E33668002F5163 /* CDVPluginDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4818E2EA16E33668002F5163 /* CDVPluginDemo.m */; };
+		4818E2F116E33668002F5163 /* CDVPluginDemo.md in Resources */ = {isa = PBXBuildFile; fileRef = 4818E2EB16E33668002F5163 /* CDVPluginDemo.md */; };
+		4818E2F216E33668002F5163 /* CDVPluginDemo_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 4818E2ED16E33668002F5163 /* CDVPluginDemo_JS.m */; };
+		4818E2F316E33668002F5163 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 4818E2EE16E33668002F5163 /* index.html */; };
 		486AFF651658575C00FBFAD6 /* MGSplitViewAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 486AFF641658575C00FBFAD6 /* MGSplitViewAppDelegate_iPhone.m */; };
 		486AFF691658594900FBFAD6 /* RootViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 486AFF671658594900FBFAD6 /* RootViewController_iPhone.m */; };
 		486AFF6A1658594900FBFAD6 /* RootViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 486AFF681658594900FBFAD6 /* RootViewController_iPhone.xib */; };
@@ -98,6 +103,13 @@
 		4810B05116E29BF3008ED1BC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		4810B05316E29BFD008ED1BC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		4810B05816E29DE2008ED1BC /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		4818E2E816E33668002F5163 /* CDVPluginDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVPluginDemo.h; path = CDVPluginDemo/CDVPluginDemo.h; sourceTree = "<group>"; };
+		4818E2E916E33668002F5163 /* CDVPluginDemo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = CDVPluginDemo.js; path = CDVPluginDemo/CDVPluginDemo.js; sourceTree = "<group>"; };
+		4818E2EA16E33668002F5163 /* CDVPluginDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVPluginDemo.m; path = CDVPluginDemo/CDVPluginDemo.m; sourceTree = "<group>"; };
+		4818E2EB16E33668002F5163 /* CDVPluginDemo.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CDVPluginDemo.md; path = CDVPluginDemo/CDVPluginDemo.md; sourceTree = "<group>"; };
+		4818E2EC16E33668002F5163 /* CDVPluginDemo_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVPluginDemo_JS.h; path = CDVPluginDemo/CDVPluginDemo_JS.h; sourceTree = "<group>"; };
+		4818E2ED16E33668002F5163 /* CDVPluginDemo_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVPluginDemo_JS.m; path = CDVPluginDemo/CDVPluginDemo_JS.m; sourceTree = "<group>"; };
+		4818E2EE16E33668002F5163 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = CDVPluginDemo/index.html; sourceTree = "<group>"; };
 		486AFF631658575C00FBFAD6 /* MGSplitViewAppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSplitViewAppDelegate_iPhone.h; path = Classes/iPhone/MGSplitViewAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		486AFF641658575C00FBFAD6 /* MGSplitViewAppDelegate_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSplitViewAppDelegate_iPhone.m; path = Classes/iPhone/MGSplitViewAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		486AFF661658594900FBFAD6 /* RootViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController_iPhone.h; path = iPhone/RootViewController_iPhone.h; sourceTree = "<group>"; };
@@ -237,6 +249,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4818E2F416E33671002F5163 /* CDVPluginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4818E2E816E33668002F5163 /* CDVPluginDemo.h */,
+				4818E2E916E33668002F5163 /* CDVPluginDemo.js */,
+				4818E2EA16E33668002F5163 /* CDVPluginDemo.m */,
+				4818E2EB16E33668002F5163 /* CDVPluginDemo.md */,
+				4818E2EC16E33668002F5163 /* CDVPluginDemo_JS.h */,
+				4818E2ED16E33668002F5163 /* CDVPluginDemo_JS.m */,
+				4818E2EE16E33668002F5163 /* index.html */,
+			);
+			name = CDVPluginDemo;
+			sourceTree = "<group>";
+		};
 		486AFF621658542D00FBFAD6 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,6 +337,7 @@
 				1D3623250D0F684500981E51 /* MGSplitViewAppDelegate.m */,
 				28042007108E984D000629CD /* RootViewController.h */,
 				28042008108E984D000629CD /* RootViewController.m */,
+				4818E2F416E33671002F5163 /* CDVPluginDemo */,
 				28042009108E984D000629CD /* DetailViewController.h */,
 				2804200A108E984D000629CD /* DetailViewController.m */,
 			);
@@ -419,6 +446,8 @@
 				48D467EB16E2A710005CD655 /* ScreenShot2.png in Resources */,
 				48D467EC16E2A710005CD655 /* ScreenShot3.png in Resources */,
 				48D467ED16E2A710005CD655 /* ScreenShot4.png in Resources */,
+				4818E2F116E33668002F5163 /* CDVPluginDemo.md in Resources */,
+				4818E2F316E33668002F5163 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +471,9 @@
 				48D467DF16E2A710005CD655 /* ___FILEBASENAME___.js in Sources */,
 				48D467E016E2A710005CD655 /* ___FILEBASENAME___.m in Sources */,
 				48D467E216E2A710005CD655 /* ___FILEBASENAME___ViewController.m in Sources */,
+				4818E2EF16E33668002F5163 /* CDVPluginDemo.js in Sources */,
+				4818E2F016E33668002F5163 /* CDVPluginDemo.m in Sources */,
+				4818E2F216E33668002F5163 /* CDVPluginDemo_JS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
